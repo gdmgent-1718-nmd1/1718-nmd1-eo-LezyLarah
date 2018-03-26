@@ -33,3 +33,31 @@ h3 {
     color: black;
     font-size: 11px;
 }
+
+.stiftfestival {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.hapfestival {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.rockwerchter {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.positief {
+    background: rgb(187, 230, 187);
+    width: 400px;
+}
+
+.negatief {
+    background: rgb(231, 185, 185);
+    width: 400px;
+}
