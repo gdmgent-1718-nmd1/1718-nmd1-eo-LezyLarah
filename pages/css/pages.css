@@ -16,3 +16,20 @@ img {
 }
 
 /* Voeg jouw css hieraan toe */
+
+.urlwebsite {
+    background: bisque;
+}
+
+h3 {
+    color: grey;
+}
+
+.scenario {
+    background: bisque;
+}
+
+.oplossingscenarios {
+    color: black;
+    font-size: 11px;
+}
