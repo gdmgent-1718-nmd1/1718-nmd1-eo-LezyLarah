@@ -20,8 +20,8 @@ img {
 
 /* INTRO */
 .kaart {
-    height: 500px;
-    width: 500px;
+    height: 480px;
+    width: 480px;
     float: left;
     padding: 5px;
 }
@@ -33,8 +33,9 @@ img {
     color: white;
 }
 
-h3 {
-    color: grey;
+.rozetitel {
+    color: black;
+    background-color: hsl(332, 55%, 58%);
 }
 
 .stiftfestival {
@@ -82,3 +83,6 @@ h3 {
     padding: 10px;
 }
 
+h3 {
+    color:grey; 
+}
