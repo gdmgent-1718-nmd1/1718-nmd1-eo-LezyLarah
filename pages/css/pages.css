@@ -17,29 +17,29 @@ img {
 
 /* Voeg jouw css hieraan toe */
 
+
+/* INTRO */
+.kaart {
+    height: 500px;
+    width: 500px;
+    float: left;
+    padding: 5px;
+}
+
+
+/* concurentie */
 .urlwebsite {
-    background: lightgrey;
-    border-left: 400px;
+    background: black;
+    color: white;
 }
 
 h3 {
     color: grey;
 }
 
-.scenario {
-    background: rgb(236, 235, 235);
-    padding: 15px;
-}
-
-.oplossingscenarios {
-    color: black;
-    font-size: 11px;
-}
-
 .stiftfestival {
     display: flex;
     flex-direction: column;
-    padding-left: 300px;
 }
 
 .hapfestival {
@@ -51,10 +51,8 @@ h3 {
 .rockwerchter {
     display: flex;
     flex-direction: column;
-    padding-left: 300px;
+    padding-left: 600px;
 }
-
-
 
 .lijsten {
     background: rgb(228, 228, 228);
@@ -62,11 +60,25 @@ h3 {
 }
 
 .concurentiebg {
-    background: rgb(241, 241, 241);
+    background: white;
+}
+
+
+/* scenario */
+.scenario {
+    background: rgb(236, 235, 235);
+    padding: 15px;
+}
+
+.oplossingscenarios {
+    color: black;
+    font-size: 12px;
 }
 
 .foto-oma {
     float: left;
     height: auto;
     width: 150px;
+    padding: 10px;
 }
+
