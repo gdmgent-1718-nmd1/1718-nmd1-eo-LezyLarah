@@ -152,3 +152,8 @@ h3 {
 .lettertype1 {
     font-style: italic;
 }
+
+.allekleuren {
+    display: flex;
+    flex-direction: row;
+}
