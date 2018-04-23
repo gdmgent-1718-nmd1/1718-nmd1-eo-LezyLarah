@@ -86,3 +86,69 @@ img {
 h3 {
     color:grey; 
 }
+
+/* digital styleguide */
+
+.kleur1 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(207, 90, 144);
+}
+
+.kleur2 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(101, 36, 106);
+}
+
+.kleur3 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(130,35,107);
+}
+
+.kleur4 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(230,89,113);
+}
+
+.kleur5 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(219,112,109);
+}
+
+.kleur6 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(79,40,55);
+}
+
+.kleur7 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(197,70,59);
+}
+
+.kleur8 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(108,17,40);
+}
+
+.kleur9 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(143,23,42);
+}
+
+.kleur10 {
+    height: 40px;
+    width: 40px;
+    background-color: rgb(225,96,62);
+}
+
+.lettertype1 {
+    font-style: italic;
+}
