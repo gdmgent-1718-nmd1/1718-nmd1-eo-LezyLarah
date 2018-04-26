@@ -90,9 +90,8 @@ h3 {
 /* digital styleguide */
 
 .kleur1 {
-    height: 40px;
-    width: 40px;
     background-color: rgb(207, 90, 144);
+    background-size: 40px 40px;
 }
 
 .kleur2 {
@@ -141,6 +140,7 @@ h3 {
     height: 40px;
     width: 40px;
     background-color: rgb(143,23,42);
+    
 }
 
 .kleur10 {
@@ -152,8 +152,10 @@ h3 {
 .lettertype1 {
     font-style: italic;
 }
-/* digital styleguide 
-.allekleuren {
-    display: flex;
-    flex-direction: row;
-}*/
+ 
+.kleuren {
+    /*display: flex;
+    flex-direction: row;*/
+}
+
+.kleuren 
