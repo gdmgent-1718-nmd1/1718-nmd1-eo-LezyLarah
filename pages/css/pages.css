@@ -92,70 +92,83 @@ h3 {
 .kleur1 {
     background-color: rgb(207, 90, 144);
     background-size: 40px 40px;
+    padding:5px;
+    color:white;
+    border-right: 400px;
 }
 
 .kleur2 {
-    height: 40px;
-    width: 40px;
+    background-size: 40px 40px;
     background-color: rgb(101, 36, 106);
+    padding: 5px;
+    color:white;
 }
 
 .kleur3 {
-    height: 40px;
-    width: 40px;
+    background-size: 40px 40px;
     background-color: rgb(130,35,107);
+    padding: 5px;
+    color:white;
 }
 
 .kleur4 {
-    height: 40px;
-    width: 40px;
+    background-size: 40px 40px;
     background-color: rgb(230,89,113);
+    padding: 5px;
+    color:white;
 }
 
 .kleur5 {
-    height: 40px;
-    width: 40px;
+    background-size: 15px 15px;
     background-color: rgb(219,112,109);
+    padding: 5px;
+    color:white;
 }
 
 .kleur6 {
-    height: 40px;
-    width: 40px;
+    background-size: 40px 40px;
     background-color: rgb(79,40,55);
+    padding: 5px;
+    color:white;
 }
 
 .kleur7 {
-    height: 40px;
-    width: 40px;
+    background-size: 40px 40px;
     background-color: rgb(197,70,59);
+    padding: 5px;
+    color:white;
 }
 
 .kleur8 {
-    height: 40px;
-    width: 40px;
+    background-size: 40px 40px;
     background-color: rgb(108,17,40);
+    padding: 5px;
+    color:white;
 }
 
 .kleur9 {
-    height: 40px;
-    width: 40px;
+    background-size: 40px 40px;
     background-color: rgb(143,23,42);
+    padding: 5px;
+    color:white;
     
 }
 
 .kleur10 {
-    height: 40px;
-    width: 40px;
+    background-size: 40px 40px;
     background-color: rgb(225,96,62);
+    padding: 5px;
+    color:white;
 }
 
 .lettertype1 {
-    font-style: italic;
-}
- 
-.kleuren {
-    /*display: flex;
-    flex-direction: row;*/
+    font-family: 'Karla', sans-serif;
 }
 
-.kleuren 
+.homeknop {
+    height: 24px;
+    width: 60px;
+    color:white;
+    background-color: pink;
+    text-align: center;
+}
