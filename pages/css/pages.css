@@ -31,28 +31,31 @@ img {
 .urlwebsite {
     background: black;
     color: white;
+    padding: 5px;
 }
 
 .rozetitel {
     color: black;
     background-color: hsl(332, 55%, 58%);
+    padding:5px;
 }
 
 .stiftfestival {
     display: flex;
     flex-direction: column;
+    padding:5px;
 }
 
 .hapfestival {
     display: flex;
     flex-direction: column;
-    padding-left: 300px;
+    padding:5px;
 }
 
 .rockwerchter {
     display: flex;
     flex-direction: column;
-    padding-left: 600px;
+    padding:5px;
 }
 
 .lijsten {
@@ -180,15 +183,4 @@ h3 {
     width:300px;
     height:50px;
     background-color:rgb(79,40,55);
-}
-
-.homebarknop {
-    width:140;
-    height:40;
-    background-color:white;
-
-}
-
-.homebarknopingedrukt {
-
 }
