@@ -28,21 +28,19 @@ img {
 
 
 /* concurentie */
-.urlwebsite {
-    background: black;
-    color: white;
-    padding: 5px;
-}
 
-.rozetitel {
-    color: black;
-    background-color: hsl(332, 55%, 58%);
-    padding:5px;
+.roze {
+    color: hsl(332, 55%, 58%);
+    font-size: 30px;
+    text-shadow:4px 4px 0 rgba(0,0,0,0.1);
 }
-
-.stiftfestival {
-    display: flex;
-    flex-direction: column;
+a {
+    color:  hsl(332, 55%, 58%);
+    
+}
+.naamfestival {
+    
+    
     padding:5px;
 }
 
@@ -58,7 +56,7 @@ img {
     padding:5px;
 }
 
-.lijsten {
+ul {
     background: rgb(228, 228, 228);
     width: 360px;
 }
@@ -92,78 +90,53 @@ h3 {
 
 /* digital styleguide */
 
-.kleur1 {
-    background-color: rgb(207, 90, 144);
-    background-size: 40px 40px;
-    padding:5px;
-    color:white;
-    border-right: 400px;
+/*css voor kleurtjes*/
+
+article,aside,details,figcaption,figure,footer,header,hgroup,nav,section,summary{display:block;}audio,canvas,video{display:inline-block;}audio:not([controls]){display:none;height:0;}[hidden]{display:none;}html{font-family:sans-serif;-webkit-text-size-adjust:100%;-ms-text-size-adjust:100%;}a:focus{outline:thin dotted;}a:active,a:hover{outline:0;}h1{font-size:2em;}abbr[title]{border-bottom:1px dotted;}b,strong{font-weight:700;}dfn{font-style:italic;}mark{background:#ff0;color:#000;}code,kbd,pre,samp{font-family:monospace, serif;font-size:1em;}pre{white-space:pre-wrap;word-wrap:break-word;}q{quotes:\201C \201D \2018 \2019;}small{font-size:80%;}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline;}sup{top:-.5em;}sub{bottom:-.25em;}img{border:0;}svg:not(:root){overflow:hidden;}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em;}button,input,select,textarea{font-family:inherit;font-size:100%;margin:0;}button,input{line-height:normal;}button,html input[type=button],/* 1 */
+input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}button[disabled],input[disabled]{cursor:default;}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0;}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box;}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none;}textarea{overflow:auto;vertical-align:top;}table{border-collapse:collapse;border-spacing:0;}body,figure{margin:0;}legend,button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0;}
+
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
+.containerkleur {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
 }
 
-.kleur2 {
-    background-size: 40px 40px;
-    background-color: rgb(101, 36, 106);
-    padding: 5px;
-    color:white;
+
+.kleur {
+  color:white;
+  font-size: 20px;
+  padding: 3px;
+  padding-top: 10px;
+  text-align: center;
+  text-shadow:4px 4px 0 rgba(0,0,0,0.1);
+  min-width: 200px;
+  max-width: 300px;
+  height: 150px;
+  margin: 5px;
+
 }
 
-.kleur3 {
-    background-size: 40px 40px;
-    background-color: rgb(130,35,107);
-    padding: 5px;
-    color:white;
-}
+.kleur1 { background: rgb(207, 90, 144);}
+.kleur2 { background:rgb(101, 36, 106);}
+.kleur3 { background:rgb(130,35,107);}
+.kleur4 { background:rgb(230,89,113);}
+.kleur5 { background: rgb(219,112,109);}
+.kleur6 { background:rgb(79,40,55);}
+.kleur7 { background: rgb(197,70,59);}
+.kleur8 { background: rgb(108,17,40);}
+.kleur9 { background:rgb(143,23,42);}
+.kleur10 { background:rgb(225,96,62);}
 
-.kleur4 {
-    background-size: 40px 40px;
-    background-color: rgb(230,89,113);
-    padding: 5px;
-    color:white;
-}
 
-.kleur5 {
-    background-size: 15px 15px;
-    background-color: rgb(219,112,109);
-    padding: 5px;
-    color:white;
+.kleursamenstelling {
+    font-family: 'Karla', sans-serif;
+    font-size: 15px;
+    text-shadow: none;
+    padding-top: 3px;
 }
-
-.kleur6 {
-    background-size: 40px 40px;
-    background-color: rgb(79,40,55);
-    padding: 5px;
-    color:white;
-}
-
-.kleur7 {
-    background-size: 40px 40px;
-    background-color: rgb(197,70,59);
-    padding: 5px;
-    color:white;
-}
-
-.kleur8 {
-    background-size: 40px 40px;
-    background-color: rgb(108,17,40);
-    padding: 5px;
-    color:white;
-}
-
-.kleur9 {
-    background-size: 40px 40px;
-    background-color: rgb(143,23,42);
-    padding: 5px;
-    color:white;
-    
-}
-
-.kleur10 {
-    background-size: 40px 40px;
-    background-color: rgb(225,96,62);
-    padding: 5px;
-    color:white;
-}
-
+/*einde kleurtjes*/
 .lettertype1 {
     font-family: 'Karla', sans-serif;
 }
@@ -183,4 +156,34 @@ h3 {
     width:300px;
     height:50px;
     background-color:rgb(79,40,55);
+  }
+
+/*Css voor knoppen*/
+.containerknop {
+    display: flex;
+    justify-content: space-evenly;
+ 
+    background-color: rgb(79,40,55);
+    padding: 20px;
+    padding-bottom: 40px;
 }
+
+.knop{
+  color:white;
+  font-size: 15px;
+  text-align: center;
+  min-width: 200px;
+  max-width: 300px;
+  height: 50px;
+  padding-top: 10px;
+  border: 2px solid white;
+
+}
+
+.knop:hover {
+    transform: translate(0px,30px);
+    -webkit-transform: translate(0px,30px); /** Safari & Chrome **/
+    -o-transform: translate(0px,30px); /** Opera **/
+    -moz-transform: translate(0px,30px); /** Firefox **/
+}
+
