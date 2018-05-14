@@ -51,6 +51,9 @@ fotos {
     margin: 10px;
     border-radius: 10px;
 }
+.confoto:hover {
+transform: scale(1.5);
+}
 
 
 ul {
