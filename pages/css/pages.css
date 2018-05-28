@@ -163,7 +163,9 @@ input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer;}b
     padding: 20px;
     padding-bottom: 40px;
 }
-
+.containerknop .knop {
+    margin: 5px;
+}
 .knop{
   color:white;
   font-size: 15px;
